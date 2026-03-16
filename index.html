@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parakamani Coldpress Oils</title>
+    <style>
+        /* Light Rustwood Theme for Parakamani Coldpress Oils */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3E0; /* Warm, bright beige */
+            color: #4A3022; /* Warm dark brown for easy reading */
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #B06D4D; /* Light Rustwood / Copper */
+            color: #FFFFFF;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #8A4522; /* Slightly darker rust edge */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #FDEBD0; /* Soft creamy yellow text */
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #FFFFFF;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        nav a {
+            color: #4A3022;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #B06D4D; /* Light rustwood highlight on hover */
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1050px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section with Light Rustwood Gradient */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #D08856 0%, #A85D38 100%); 
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 20px rgba(168, 93, 56, 0.2);
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto 25px auto;
+            line-height: 1.6;
+            color: #FFF8F0;
+        }
+
+        /* Product Cards */
+        .recipe-grid {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .recipe-card {
+            background: white;
+            border: none;
+            border-radius: 12px;
+            padding: 30px 20px;
+            width: 280px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: all 0.3s ease;
+            border-top: 4px solid transparent;
+        }
+        .recipe-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-top: 4px solid #B06D4D; /* Light rustwood top border on hover */
+        }
+        .recipe-card h3 {
+            color: #A85D38; /* Rust text for headings */
+            font-size: 1.4em;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .recipe-card p {
+            color: #6D4C41;
+            line-height: 1.5;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: #B06D4D; /* Light rustwood button */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #8A4522; /* Darker rust on hover */
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #8A4522;
+            color: #FAF3E0;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 60px;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+        }
+        /* Mobile Responsiveness for Phones */
+        @media (max-width: 768px) {
+            nav { padding: 10px; }
+            nav a { display: block; margin: 12px 0; font-size: 1.2em; }
+            .recipe-grid { flex-direction: column; align-items: center; }
+            .recipe-card { width: 100%; max-width: 350px; }
+            header h1 { font-size: 2.2em; }
+            .hero { padding: 40px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Parakamani Coldpress Oils</h1>
+        <p>100% Pure, Traditional, Wood-Pressed</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Our Oils</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <h2>Pure Wood-Pressed Oils, Direct from Amaravati</h2>
+            <p>Experience the health benefits and authentic taste of premium, unadulterated oils extracted using traditional wood-pressing methods.</p>
+            <a href="products.html" class="btn">View Our Products</a>
+        </div>
+
+        <h2 style="text-align: center; color: #8A4522;">Our Premium Cold-Pressed Oils</h2>
+        <div class="recipe-grid">
+            <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="images/groundnut.jpg" alt="Groundnut Oil" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                <h3>Groundnut Oil</h3>
+                <p>Parakamani groundnut oil is crafted with detailed care and time-honored techniques, focusing on the pure essence of raw groundnuts.</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/sesame oil.jpg" alt="Sesame Oil" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                <h3>Sesame Oil</h3>
+                <p>Parakamani sesame oil is created from authentic sources, honoring traditional methods to deliver the genuine flavor and nutrient profile of the sesame seed.</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/cocnutoil.jpg" alt="Coconut Oil" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                <h3>Coconut Oil</h3>
+                <p>Crafted from the finest fresh coconuts using authentic cold-press methods, our oil preserves the rich, natural aroma and vital nutrients.</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/Mustard-oil-use.avif" alt="Mustard Oil" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                <h3>Mustard Oil</h3>
+                <p>Rich in antibacterial properties, our cold-pressed mustard oil boosts immunity, relieves joint pain, and is excellent for cardio health.</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Parakamani Coldpress Oils. Built with love.</p>
+        <p>Amaravati, AP</p>
+    </footer>
+
+</body>
+</html>
